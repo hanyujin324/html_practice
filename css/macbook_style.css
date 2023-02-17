@@ -1,0 +1,180 @@
+/* MacBook Pro 16 */
+@media screen  and (min-width:1200px){
+  .total{
+    display: flex;
+    flex-direction: column;
+    width: 1728px;
+    height: 1357px; 
+  }
+    /* 헤더 */
+    .header{
+      display: flex;
+      width:100%;
+      height: 100px;
+      background-color: var(--color-blue);
+    }
+    /* 맥북에서만 타이틀이 가운데가 아닌 왼쪽으로 설정*/
+    .title{
+      display: flex;
+      flex-direction: row;
+      margin-left: 50px;
+      justify-content: flex-start;
+      width: 100%;
+      padding-top: 38px;
+    }
+    .title>.text1{
+      font-size: 12px;
+      color: #fff;
+      font-family: 'Inter', sans-serif;
+      font-weight: 900;
+    }
+  /* 맥북_헤더에 있는 화살표가 안보이게 설정 */
+    .h1{
+      display: none;
+      }
+    .title>.h1>p{
+      display: flex;
+      justify-content: end;
+      font-size: 12px;
+      color:#fff;
+    }
+    .mono>p{
+      margin-top: 20px;
+      padding-left: 50px;
+      color: black;
+      font-family: 'Inter', sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 50%;
+    }
+    /* 맥북에는 main1,mian2가 같이 보이므로 main추가 */
+    .main{
+      display: flex;
+      flex-direction: row;
+    }
+    /* 메인1*/
+    .main1{
+      display: flex;
+      flex-direction: column;
+      width: 429px;
+      height: 857px;
+    }
+  /* text2 왼쪽 */
+    .text2{
+      margin-left: 10px;
+      font-size: 92px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 700;
+      height: 500px;
+      
+    }
+    .text2>p{
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      font-weight: 700;
+    }
+    .main1>.text2>p:nth-child(1){
+      color:var(--color-black);
+    }
+    .main1>.text2>p:nth-child(2){
+      color:var(--color-blue);
+    }
+    .main1>.text2>p:nth-child(3){
+      color:var(--color-blue);
+    }
+    .main1>.text2>p:nth-child(4){
+      color:var(--color-blue);
+    }
+    .main1>.text2>p:nth-child(5){
+      color:var(--color-black);
+    }
+    .main1>.h2>p{
+      display: flex;
+      justify-content:start;
+      font-size: 12px;
+      color: var(--color-blue);
+    }
+    .text3>p:nth-child(1){
+      display: flex;
+      justify-content: start;
+      font-size: 12px;
+      font-weight: 400;
+      color: var(--color-blue);
+    }
+    .text3>p:nth-child(2){
+      display: flex;
+      justify-content: start;
+      font-size: 12px;
+      font-weight: 400;
+      color: var(--color-blue);
+    }
+    /* 메인2 */
+    .main2{
+      display: flex;
+      width: 1299px;
+      height:857px;
+      background-color: var(--color-blue);
+    }
+  /* 텍스트가 아닌 text4클래스에 밑줄 */
+    .text4{
+      margin-top: 0px;
+      margin-left: 20px;
+      height: 500px;
+      font-size: 128px;
+      color: #fff;
+      font-family: 'Karantina', cursive;
+      font-weight: 400;
+      border-bottom: 2px solid #fff;
+    }
+  /* line-height을 사용하여 줄간격 10px설정 */
+
+    .text4>p{
+      display: flex;
+      margin-bottom: 0;
+      line-height: 10px;
+      flex-direction: row;
+      margin-top: 0;
+
+    }
+    .text4>p:nth-child(1){
+      justify-content: flex-end;
+      position: relative;
+      right: -80px;
+    }
+    .text4>p:nth-child(2){
+      justify-content: flex-end;
+      position:relative;
+      top:90px;
+      right:-250px;
+      
+    }
+  
+    .text4>p:nth-child(3){
+      align-items: flex-end;     
+      position:relative; 
+      top:170px;
+      right:-850px;
+
+    }
+    /* 푸터 */
+    .footer{
+      background-color: var(--color-black);
+      display: flex;
+      width: 100%;
+      height: 200px;
+    }
+    /* 푸터 위에 밑줄 추가 */
+    .text5{
+      width: 90%;
+      margin-top: 50px;
+      margin-left: 50px;
+      border-top: 3px solid #fff;
+    }
+    .text5>p{
+      font-family: 'Inter', sans-serif;
+      font-size: 8px;
+      color: var(--color-wh);
+    }
+
+}
+

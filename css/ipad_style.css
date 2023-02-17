@@ -1,0 +1,163 @@
+/* iPad Pro 12.9 */
+@media screen and (min-width:431px){
+  .total{
+    display: flex;
+    flex-direction: column;
+    width: 1024px;
+    height: 2732px; 
+  }
+/* ipad 높이 헤더 100px, 네비200px 메인1 864px, 메인2 1368px, 푸터 200px*/
+  /* 헤더 */
+  .header{
+    display: flex;
+    width:100%;
+    height: 100px;
+    background-color: var(--color-blue);
+  }
+  .title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding-top: 38px;
+  }
+  .title>.text1{
+    font-size: 12px;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+  }
+  /* 아이패드_헤더에 있는 화살표가 안보이게 설정 */
+  .h1{
+    display: none;
+    }
+  .title>.h1>p{
+    display: flex;
+    justify-content: end;
+    font-size: 12px;
+    color:#fff;
+  }
+  /* ipad, macbook에는 nav가 보임 */
+  .nav{
+    display: flex;
+    background-color: var(--color-wh);
+    height: 200px;
+    width: 100%;
+  }
+  .mono>p{
+    margin-top: 20px;
+    padding-left: 50px;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 50%;
+  }
+  /* 메인1*/
+  .main1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 864px;
+  }
+  /* text2 왼쪽 */
+  .text2{
+    padding-top: 100px;
+    margin-left: 50px;
+    padding-bottom: 0px;
+
+    font-size: 92px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    height: 500px;    
+  }
+  /* line-height을 사용하여 줄간격 80%설정 */
+  .text2>p{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    line-height: 80%;
+  }
+  .main1>.text2>p:nth-child(1){
+    color:var(--color-black);
+  }
+  .main1>.text2>p:nth-child(2){
+    color:var(--color-blue);
+  }
+  .main1>.text2>p:nth-child(3){
+    color:var(--color-blue);
+  }
+  .main1>.text2>p:nth-child(4){
+    color:var(--color-blue);
+  }
+  .main1>.text2>p:nth-child(5){
+    color:var(--color-black);
+  }
+  .main1>.h2>p{
+    display: flex;
+    margin-left: 150px;
+    justify-content:flex-start;
+    font-size: 12px;
+    color: var(--color-blue);
+  }
+  .text3>p:nth-child(1){
+    margin-left: 50px;
+    justify-content:flex-start;
+
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--color-blue);
+  }
+  .text3>p:nth-child(2){
+    margin-left: 50px;
+    justify-content:flex-start;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--color-blue);
+  }
+  /* 메인2 */
+  .main2{
+    display: flex;
+    width: 100%;
+    height:1368px;
+    background-color: var(--color-blue);
+  }
+  /* 텍스트가 아닌 text4클래스에 밑줄 */
+  .main2>.text4{
+    width: 80%;
+    margin-top: 500px;
+    margin-bottom: 200px;
+    margin-left: 50px;
+    height: 500px;
+    font-size: 128px;
+    color: #fff;
+    font-family: 'Karantina', cursive;
+    font-weight: 400;
+    border-bottom: 5px solid #fff;
+  }
+  /* line-height을 사용하여 줄간격 10px설정 */
+  .text4>p{
+    margin-bottom: 0;
+    line-height: 10px;
+  }
+  /* 푸터 */
+  .footer{
+    background-color: var(--color-black);
+    display: flex;
+    width: 100%;
+    height: 200px;
+  }
+  /* 푸터 위에 밑줄 추가 */
+  .text5{
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-top: 3px solid #fff;
+  }
+  .text5>p{
+    font-family: 'Inter', sans-serif;
+    font-size: 8px;
+    color: var(--color-wh);
+  }
+
+}
